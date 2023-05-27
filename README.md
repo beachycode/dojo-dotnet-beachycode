@@ -44,5 +44,32 @@ services:
 
 
 Pronto, agora você já tem o banco de dados disponibilizado na porta 27017 e pode rodar a api para manipular os seus dados.
+
+## Executando a API
 Para rodar a api, basta abrir o arquivo `DojoDaGalera.sln` com o Visual Studio e executar no ![image](https://github.com/luishti/dojo-dotnet-beachycode/assets/2211110/69e72bc7-2cbc-4542-b5b8-dc4f6e2c0892)
+
+## Manipulando os dados
+Para manipular os dados na api vamos utilizar o Postman, você pode utilizar os seguintes endpoints com os métodos e dados à seguir:
+- #### $\textcolor{#F7DC6F}{\textsf{POST}}$ (criar dojo):
+    `https://localhost:5001/dojo`
+    ```
+    {
+      "titulo": "Dojo Javascript",
+      "descricao": "Dojo de Javascript na ulbra com a galera"
+    }
+    ```
+- #### $\textcolor{#58D68D}{\textsf{GET}}$ (ler dojos):
+    `https://localhost:5001/dojo`
+- #### $\textcolor{#58D68D}{\textsf{GET}}$ (ler um dojo):
+    `https://localhost:5001/dojo/{ID_DE_ALGUM_OBJETO_DO_BANCO}`
+- #### $\textcolor{#5DADE2}{\textsf{PUT}}$ (atualizar um dojo):
+    `https://localhost:5001/dojo/{ID_DE_ALGUM_OBJETO_DO_BANCO}`
+    ```
+      {
+        "titulo": "Dojo JS",
+        "descricao": "Dojo de JS na ulbra com a galera massa demais"
+      }
+    ```
+- #### $\textcolor{#EC7063}{\textsf{DELETE}}$ (remover um dojo): 
+    `https://localhost:5001/dojo/{ID_DE_ALGUM_OBJETO_DO_BANCO}`
 
