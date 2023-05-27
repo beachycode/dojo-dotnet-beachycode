@@ -13,7 +13,7 @@ Projeto criado em dojô utilizando .net 7 com Visual Studio Community.
 
 
 Após a instalação de todos os requisitos, vamos rodar o docker com a image do banco de dados MongoDB pra armazenar os nossos dados. Pra isso, vamos utilizar a configuração à seguir:
-  - criar um arquivo chamado docker-compose.yml e salvar dentro dele seguinte conteúdo
+  - criar um arquivo chamado docker-compose.yml e salvar dentro dele o conteúdo à seguir
 ```
 version: '3.1'
 
@@ -38,7 +38,7 @@ services:
       ME_CONFIG_MONGODB_ADMINPASSWORD: root
       ME_CONFIG_MONGODB_URL: mongodb://root:root@mongo:27017/
 ```
-  - rodar o comando `docker-compose up -d` para criar os contêineres do MongoDB e MongoExpress para rodar a parte de armazenamento de dados
+  - na mesma pasta onde o arquivo foi criado, rodar o comando `docker-compose up -d` para criar os contêineres do MongoDB e MongoExpress para rodar a parte de armazenamento de dados
   - o banco de dados ficará acessível utilizando a string de conexão que está salva no arquivo `appsettings.json` do projeto
   - para visualizar os dados do banco no navegador pode ser utilizado o acesso do Express disponibilizado na porta `8081` do `localhost`
 
