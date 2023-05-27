@@ -41,3 +41,6 @@ services:
   - rodar o comando `docker-compose up -d` para criar os contêineres do MongoDB e MongoExpress para rodar a parte de armazenamento de dados
   - o banco de dados ficará acessível utilizando a string de conexão que está salva no arquivo `appsettings.json` do projeto
   - para visualizar os dados do banco no navegador pode ser utilizado o acesso do Express disponibilizado na porta `8081` do `localhost`
+
+
+Pronto, agora você já tem o banco de dados disponibilizado na porta 27017 e pode rodar a api para manipular os seus dados.
