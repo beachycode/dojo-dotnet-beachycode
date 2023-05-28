@@ -1,4 +1,4 @@
-# dojo-dotnet-beachycode
+# Dojô .net 7
 Projeto criado em dojô utilizando .net 7 com Visual Studio Community.
 
 
