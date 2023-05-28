@@ -9,7 +9,9 @@ Projeto criado em dojô utilizando .net 7 com Visual Studio Community.
 
 3 - Instalar o Visual Studio Community (https://visualstudio.microsoft.com/pt-br/vs/community/)
 
-4 - Instalar o Postman para testar e brincar com os dados da api (https://www.postman.com/downloads/)
+5 - Instalar o SDK do .net 7 (https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
+
+6 - Instalar o Postman para testar e brincar com os dados da api (https://www.postman.com/downloads/)
 
 
 Após a instalação de todos os requisitos, vamos rodar o docker com a image do banco de dados MongoDB pra armazenar os nossos dados. Pra isso, vamos utilizar a configuração à seguir:
